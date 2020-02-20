@@ -1,0 +1,107 @@
+.my-masonry-grid {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: -30px;
+  width: auto;
+}
+.my-masonry-grid_column {
+  padding-left: 30px;
+  background-clip: padding-box;
+}
+
+.my-masonry-grid_column .feed {
+  background: #f5f5f5;
+  margin-bottom: 30px;
+}
+
+.feed .feed__image__container {
+  position: relative;
+}
+.feed__image__container img {
+  width: 100%;
+  cursor: zoom-in;
+}
+.feed__image__container .overlay-block {
+  position: absolute;
+  opacity: 0;
+  width: 100%;
+  color: #fff;
+  margin: 0;
+  transition-duration: 0.5s;
+}
+.feed__image__container:hover .overlay-block {
+  opacity: 1;
+}
+.feed__image__container .author {
+  text-align: left;
+  bottom: 0;
+  padding: 0 0 5px 5px;
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(transparent),
+    color-stop(81%, rgba(0, 0, 0, 0.6))
+  );
+  background: linear-gradient(180deg, transparent 0, rgba(0, 0, 0, 0.6) 81%);
+}
+.author .author-name {
+  margin-left: -4px;
+  cursor: pointer;
+}
+.author .author-name:hover {
+  text-decoration: underline;
+}
+.feed__image__container .time {
+  text-align: right;
+  top: 0;
+  padding: 5px 5px 0 0;
+  background: -webkit-gradient(
+    linear,
+    left bottom,
+    left top,
+    from(transparent),
+    color-stop(81%, rgba(0, 0, 0, 0.6))
+  );
+  background: linear-gradient(360deg, transparent 0, rgba(0, 0, 0, 0.6) 81%);
+}
+.feed .tags {
+  text-align: left;
+  padding: 5px 5px 5px 33px;
+  position: relative;
+}
+.feed .ant-avatar {
+  margin-right: 3px;
+}
+.feed .tags .ant-avatar {
+  position: absolute;
+  left: 5px;
+}
+.feed .ant-tag {
+  margin-bottom: 2px;
+  white-space: pre-wrap;
+  word-break: break-word;
+  line-height: initial;
+  cursor: pointer;
+}
+
+.ant-modal-body img {
+  width: 100%;
+}
+.ant-modal-content .ant-modal-close {
+  top: -20px;
+  right: -20px;
+  border-radius: 50%;
+  background-color: #e6e1e1;
+}
+.ant-modal-content .ant-modal-close-x {
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+}
+@media only screen and (max-width: 600px) {
+  .feed__image__container .overlay-block {
+    opacity: 1;
+  }
+}

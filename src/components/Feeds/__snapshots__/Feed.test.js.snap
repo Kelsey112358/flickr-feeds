@@ -1,0 +1,684 @@
+exports[`Feed test suite render Searchbar with correct props 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Unknown
+    author="author1"
+    authorId={123}
+    dateTaken="2020-02-16T00:00:00-08:00"
+    onAuthorClick={[Function]}
+    onImgClick={[Function]}
+    onTagClick={[Function]}
+    src="http://img.png"
+    tags={
+        Array [
+            "tag1",
+            "tag2",
+          ]
+    } />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <div
+          className="feed__image__container">
+          <img
+                    alt=""
+                    onClick={[Function]}
+                    src="http://img.png" />
+          <p
+                    className="author overlay-block"
+                    onClick={[Function]}>
+                    <Avatar
+                              icon="user"
+                              shape="circle"
+                              size="small" />
+                     
+                    <span
+                              className="author-name">
+                              author1
+                    </span>
+          </p>
+          <p
+                    className="time overlay-block">
+                    <t
+                              ago={false}
+                              calendar={false}
+                              decimal={false}
+                              element={null}
+                              filter={[Function]}
+                              format="YYYY-MM-DD"
+                              fromNow={false}
+                              interval={60000}
+                              local={false}
+                              onChange={[Function]}
+                              titleFormat=""
+                              toNow={false}
+                              unit={null}
+                              unix={false}
+                              utc={false}
+                              withTitle={false}>
+                              2020-02-16T00:00:00-08:00
+                    </t>
+          </p>
+</div>,
+        <div
+          className="tags">
+          <Avatar
+                    icon="tag"
+                    shape="circle"
+                    size="small" />
+          <Tag
+                    closable={false}
+                    onClick={[Function]}>
+                    tag1
+          </Tag>
+          <Tag
+                    closable={false}
+                    onClick={[Function]}>
+                    tag2
+          </Tag>
+</div>,
+      ],
+      "className": "feed",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <img
+              alt=""
+              onClick={[Function]}
+              src="http://img.png" />,
+            <p
+              className="author overlay-block"
+              onClick={[Function]}>
+              <Avatar
+                            icon="user"
+                            shape="circle"
+                            size="small" />
+               
+              <span
+                            className="author-name">
+                            author1
+              </span>
+</p>,
+            <p
+              className="time overlay-block">
+              <t
+                            ago={false}
+                            calendar={false}
+                            decimal={false}
+                            element={null}
+                            filter={[Function]}
+                            format="YYYY-MM-DD"
+                            fromNow={false}
+                            interval={60000}
+                            local={false}
+                            onChange={[Function]}
+                            titleFormat=""
+                            toNow={false}
+                            unit={null}
+                            unix={false}
+                            utc={false}
+                            withTitle={false}>
+                            2020-02-16T00:00:00-08:00
+              </t>
+</p>,
+          ],
+          "className": "feed__image__container",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "alt": "",
+              "onClick": [Function],
+              "src": "http://img.png",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "img",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <Avatar
+                  icon="user"
+                  shape="circle"
+                  size="small" />,
+                " ",
+                <span
+                  className="author-name">
+                  author1
+</span>,
+              ],
+              "className": "author overlay-block",
+              "onClick": [Function],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "icon": "user",
+                  "shape": "circle",
+                  "size": "small",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              " ",
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "author1",
+                  "className": "author-name",
+                },
+                "ref": null,
+                "rendered": "author1",
+                "type": "span",
+              },
+            ],
+            "type": "p",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <t
+                ago={false}
+                calendar={false}
+                decimal={false}
+                element={null}
+                filter={[Function]}
+                format="YYYY-MM-DD"
+                fromNow={false}
+                interval={60000}
+                local={false}
+                onChange={[Function]}
+                titleFormat=""
+                toNow={false}
+                unit={null}
+                unix={false}
+                utc={false}
+                withTitle={false}>
+                2020-02-16T00:00:00-08:00
+</t>,
+              "className": "time overlay-block",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "ago": false,
+                "calendar": false,
+                "children": "2020-02-16T00:00:00-08:00",
+                "decimal": false,
+                "element": null,
+                "filter": [Function],
+                "format": "YYYY-MM-DD",
+                "fromNow": false,
+                "interval": 60000,
+                "local": false,
+                "onChange": [Function],
+                "titleFormat": "",
+                "toNow": false,
+                "unit": null,
+                "unix": false,
+                "utc": false,
+                "withTitle": false,
+              },
+              "ref": null,
+              "rendered": "2020-02-16T00:00:00-08:00",
+              "type": [Function],
+            },
+            "type": "p",
+          },
+        ],
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <Avatar
+              icon="tag"
+              shape="circle"
+              size="small" />,
+            Array [
+              <Tag
+                closable={false}
+                onClick={[Function]}>
+                tag1
+</Tag>,
+              <Tag
+                closable={false}
+                onClick={[Function]}>
+                tag2
+</Tag>,
+            ],
+          ],
+          "className": "tags",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "icon": "tag",
+              "shape": "circle",
+              "size": "small",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "0",
+            "nodeType": "class",
+            "props": Object {
+              "children": "tag1",
+              "closable": false,
+              "onClick": [Function],
+            },
+            "ref": null,
+            "rendered": "tag1",
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "1",
+            "nodeType": "class",
+            "props": Object {
+              "children": "tag2",
+              "closable": false,
+              "onClick": [Function],
+            },
+            "ref": null,
+            "rendered": "tag2",
+            "type": [Function],
+          },
+        ],
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <div
+            className="feed__image__container">
+            <img
+                        alt=""
+                        onClick={[Function]}
+                        src="http://img.png" />
+            <p
+                        className="author overlay-block"
+                        onClick={[Function]}>
+                        <Avatar
+                                    icon="user"
+                                    shape="circle"
+                                    size="small" />
+                         
+                        <span
+                                    className="author-name">
+                                    author1
+                        </span>
+            </p>
+            <p
+                        className="time overlay-block">
+                        <t
+                                    ago={false}
+                                    calendar={false}
+                                    decimal={false}
+                                    element={null}
+                                    filter={[Function]}
+                                    format="YYYY-MM-DD"
+                                    fromNow={false}
+                                    interval={60000}
+                                    local={false}
+                                    onChange={[Function]}
+                                    titleFormat=""
+                                    toNow={false}
+                                    unit={null}
+                                    unix={false}
+                                    utc={false}
+                                    withTitle={false}>
+                                    2020-02-16T00:00:00-08:00
+                        </t>
+            </p>
+</div>,
+          <div
+            className="tags">
+            <Avatar
+                        icon="tag"
+                        shape="circle"
+                        size="small" />
+            <Tag
+                        closable={false}
+                        onClick={[Function]}>
+                        tag1
+            </Tag>
+            <Tag
+                        closable={false}
+                        onClick={[Function]}>
+                        tag2
+            </Tag>
+</div>,
+        ],
+        "className": "feed",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <img
+                alt=""
+                onClick={[Function]}
+                src="http://img.png" />,
+              <p
+                className="author overlay-block"
+                onClick={[Function]}>
+                <Avatar
+                                icon="user"
+                                shape="circle"
+                                size="small" />
+                 
+                <span
+                                className="author-name">
+                                author1
+                </span>
+</p>,
+              <p
+                className="time overlay-block">
+                <t
+                                ago={false}
+                                calendar={false}
+                                decimal={false}
+                                element={null}
+                                filter={[Function]}
+                                format="YYYY-MM-DD"
+                                fromNow={false}
+                                interval={60000}
+                                local={false}
+                                onChange={[Function]}
+                                titleFormat=""
+                                toNow={false}
+                                unit={null}
+                                unix={false}
+                                utc={false}
+                                withTitle={false}>
+                                2020-02-16T00:00:00-08:00
+                </t>
+</p>,
+            ],
+            "className": "feed__image__container",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "alt": "",
+                "onClick": [Function],
+                "src": "http://img.png",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "img",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <Avatar
+                    icon="user"
+                    shape="circle"
+                    size="small" />,
+                  " ",
+                  <span
+                    className="author-name">
+                    author1
+</span>,
+                ],
+                "className": "author overlay-block",
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "icon": "user",
+                    "shape": "circle",
+                    "size": "small",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                " ",
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "author1",
+                    "className": "author-name",
+                  },
+                  "ref": null,
+                  "rendered": "author1",
+                  "type": "span",
+                },
+              ],
+              "type": "p",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <t
+                  ago={false}
+                  calendar={false}
+                  decimal={false}
+                  element={null}
+                  filter={[Function]}
+                  format="YYYY-MM-DD"
+                  fromNow={false}
+                  interval={60000}
+                  local={false}
+                  onChange={[Function]}
+                  titleFormat=""
+                  toNow={false}
+                  unit={null}
+                  unix={false}
+                  utc={false}
+                  withTitle={false}>
+                  2020-02-16T00:00:00-08:00
+</t>,
+                "className": "time overlay-block",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "ago": false,
+                  "calendar": false,
+                  "children": "2020-02-16T00:00:00-08:00",
+                  "decimal": false,
+                  "element": null,
+                  "filter": [Function],
+                  "format": "YYYY-MM-DD",
+                  "fromNow": false,
+                  "interval": 60000,
+                  "local": false,
+                  "onChange": [Function],
+                  "titleFormat": "",
+                  "toNow": false,
+                  "unit": null,
+                  "unix": false,
+                  "utc": false,
+                  "withTitle": false,
+                },
+                "ref": null,
+                "rendered": "2020-02-16T00:00:00-08:00",
+                "type": [Function],
+              },
+              "type": "p",
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <Avatar
+                icon="tag"
+                shape="circle"
+                size="small" />,
+              Array [
+                <Tag
+                  closable={false}
+                  onClick={[Function]}>
+                  tag1
+</Tag>,
+                <Tag
+                  closable={false}
+                  onClick={[Function]}>
+                  tag2
+</Tag>,
+              ],
+            ],
+            "className": "tags",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "icon": "tag",
+                "shape": "circle",
+                "size": "small",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "0",
+              "nodeType": "class",
+              "props": Object {
+                "children": "tag1",
+                "closable": false,
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": "tag1",
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "1",
+              "nodeType": "class",
+              "props": Object {
+                "children": "tag2",
+                "closable": false,
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": "tag2",
+              "type": [Function],
+            },
+          ],
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": true,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    Symbol(enzyme.__providerValues__): undefined,
+  },
+  Symbol(enzyme.__providerValues__): Map {},
+}
+`;

@@ -1,0 +1,1 @@
+export { ConnectedSearchbar } from './Searchbar';
